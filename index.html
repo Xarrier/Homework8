@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>image</title>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid meet">
+    <path d="M 50,70 A 20 20 0 0 1 70,50 L 580,50 A 20 20 0 0 1 600,70 L 600,580 A 20 20 0 0 1 580,600 L 70,600 A 20 20 0 0 1 50,580 z"stroke="gray" stroke-width="2" fill="url(#grad)"> </path>
+    <path d="M 100,120 A 20 20 0 0 1 120,100 L 530,100 A 20 20 0 0 1 550,120 L 550,530 A 20 20 0 0 1 530,550 L 120,550 A 20 20 0 0 1 100,530 z" stroke="#222" stroke-linejoin="round" stroke-width="2" fill="url(#circle)"> </path>
+    <path d="M 290,440 L 180,440 L 180,450 L 480,450 L 480,440 L 360,440 L 360,410 L 485,410 A 15 15 0 0 0 500 395 L 500,215 A 15 15 0 0 0 485,200 L 165,200 A 15 15 0 0 0 150,215 L 150,395 A 15 15 0 0 0 165,410 L 290,410 z" stroke="#222" stroke-width="2" fill="darkgray"> </path>
+    <path d="M 165,395 L 485,395 L 485,215 L 165,215 z" fill="url(#grad2)"> </path>
+<defs>
+    <pattern id="circle" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <circle cx="15" cy="15" r="12" stroke="gray" fill="#333" stroke-width="2"> </circle>
+    </pattern>
+    <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="grad">
+            <stop stop-color="white" offset="10%"> </stop>
+            <stop stop-color="gray" offset="50%"> </stop>
+            <stop stop-color="white" offset="90%"> </stop>
+    </linearGradient>
+    <radialGradient id="grad2" cx="85%" cy="20%" fx="100%" fy="100%" r="1000%">
+        <stop stop-color="black" offset="10%"> </stop>
+        <stop stop-color="gray" offset="10%"> </stop>
+        <stop stop-color="gray" offset="100%"> </stop>
+    </radialGradient>
+    </defs>
+</svg>
+</body>
+</html>
